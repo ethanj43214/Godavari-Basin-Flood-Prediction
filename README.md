@@ -1,15 +1,33 @@
 # Godavari Basin Flood Prediction & Hydrological Analysis
 
-A data science project focused on flood prediction in the Godavari river basin 
+A project focused on flood prediction in the Godavari river basin 
 using multi-source hydrological and meteorological data collected across 15 stations.
 
 ---
 
 ## 🎯 Objective
 
-Built a flood prediction model for the Godavari Basin by integrating data from 
-multiple sources and exploring deep learning approaches (LSTM & GRU).
+The Godavari river is one of India's largest rivers, flowing through Maharashtra, 
+Telangana, and Andhra Pradesh. It is highly flood-prone during the monsoon season 
+(June–September), causing widespread destruction every year — damaging crops, 
+displacing communities, and claiming lives across the basin.
 
+Flood events are difficult to predict accurately because they depend on a complex 
+combination of factors — not just rainfall alone, but also river discharge, soil 
+moisture, temperature, humidity, wind speed, and surface pressure all interacting 
+together over time.
+
+This project aims to:
+- Collect and integrate real hydrological and meteorological data from 15 stations 
+  across the Godavari basin spanning 7 monsoon seasons (2018–2025)
+- Build a clean, structured dataset combining 12 parameters from 3 data sources 
+  (WRIS, NASA POWER, IMDLib)
+- Train deep learning models (LSTM & GRU) to learn time-series patterns and predict 
+  flood events before they occur
+
+LSTM and GRU models are specifically suited for this task as they are designed to 
+remember patterns across time sequences — which is critical since flood conditions 
+build up over several days before an event actually occurs.
 ---
 
 ## 📍 Study Area
