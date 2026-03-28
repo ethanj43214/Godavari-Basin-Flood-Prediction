@@ -28,6 +28,7 @@ This project aims to:
 LSTM and GRU models are specifically suited for this task as they are designed to 
 remember patterns across time sequences — which is critical since flood conditions 
 build up over several days before an event actually occurs.
+
 ---
 
 ## 📍 Study Area
