@@ -93,8 +93,8 @@ build up over several days before an event actually occurs.
 
 - Integrated 3 data sources into a single clean dataset
 - Covered 15 hydrological stations across 3 states
-- Dataset spans 7 monsoon seasons (2018–2025)
-- Approximately **480,000+ data points** across 15 stations and 12 parameters
+- Dataset spans 7 monsoon seasons (2019–2026)
+- Approximately **400,000+ data points** across 15 stations and 12 parameters
 - Applied deep learning methods for time-series flood prediction
 ---
 
